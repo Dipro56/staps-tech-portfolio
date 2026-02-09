@@ -65,7 +65,7 @@ export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const backgroundY = useTransform(scrollYProgress, [0, 1], ['0%', '50%']);
-  const videoRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLDivElement>(null) as React.RefObject<HTMLDivElement>;
 
   // Handle scroll effect for navbar
   useEffect(() => {
