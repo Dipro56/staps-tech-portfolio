@@ -204,7 +204,7 @@ export default function Portfolio() {
                   <div className="mt-auto">
                     <Link
                       href={project.liveLink}
-                      className="bg-green-500 cursor-pointer hover:bg-green-600 text-black font-semibold px-4 py-2 rounded-lg transition"
+                      className="bg-gradient-to-r from-green-500 to-emerald-500 cursor-pointer hover:bg-green-600 text-black font-semibold px-4 py-2 rounded-lg transition"
                     >
                       Visit Live
                     </Link>

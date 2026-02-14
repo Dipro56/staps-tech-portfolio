@@ -263,7 +263,7 @@ export default function Home() {
       <Process />
 
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
 
       <CTA />
       <Footer />
