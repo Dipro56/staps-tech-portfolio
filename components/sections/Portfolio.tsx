@@ -358,22 +358,22 @@ import { useState } from 'react';
 const reelPortfolio = [
   {
     title: 'Faceless Content',
-    src: '/asset/video/Reel_1.mp4',
+    src: '/asset/videos/Reel_1.mp4',
     thumbnail: '/asset/thumbs/thumb_reel_1.PNG',
   },
   {
     title: 'Reels & Shorts',
-    src: '/asset/video/Reel_2.mp4',
+    src: '/asset/videos/Reel_2.mp4',
     thumbnail: '/asset/thumbs/thumb_reel_2.PNG',
   },
   {
     title: 'Podcast Reel',
-    src: '/asset/video/Reel_3.mp4',
+    src: '/asset/videos/Reel_3.mp4',
     thumbnail: '/asset/thumbs/thumb_reel_3.PNG',
   },
   {
     title: 'Personal Intro',
-    src: '/asset/video/Reel_4.mp4',
+    src: '/asset/videos/Reel_4.mp4',
     thumbnail: '/asset/thumbs/thumb_reel_4.PNG',
   },
 ];
