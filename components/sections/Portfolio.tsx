@@ -192,6 +192,7 @@ export default function Portfolio() {
                       <video
                         src={item.src}
                         autoPlay
+                        controlsList="nodownload"
                         muted
                         loop
                         className="absolute inset-0 w-full h-full object-cover"
@@ -248,6 +249,7 @@ export default function Portfolio() {
                       <video
                         src={item.src}
                         autoPlay
+                        controlsList="nodownload"
                         muted
                         loop
                         className="absolute inset-0 w-full h-full object-cover"
@@ -360,6 +362,7 @@ export default function Portfolio() {
               <div className="aspect-video rounded-xl overflow-hidden">
                 <video
                   src={activeVideo}
+                  controlsList="nodownload"
                   controls
                   autoPlay
                   className="w-full h-full"
